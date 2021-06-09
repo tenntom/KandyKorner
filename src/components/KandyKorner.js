@@ -8,11 +8,11 @@ import "./KandyKorner.css"
 
 const Opening = () => (
     <header className="mainPageHeader">
-        <h2>Nashville Kennels</h2>
-        <small>Loving care when you're not there.</small>
+        <h2>Kandy Korner</h2>
+        <small>Sweet Treats for Sweet People</small>
         <address>
-            <div>Visit Us at the Nashville North Location</div>
-            <div>500 Puppy Way</div>
+            <div>Visit Us Today!</div>
+            <div>500 Candyland Parkway</div>
         </address>
     </header>
 )
@@ -20,8 +20,9 @@ const Opening = () => (
 export const KandyKorner = () => (
     <>
         <Opening />
+        <ApplicationViews />
 
-        <Route
+        {/* <Route
         render={() => {
             if (localStorage.getItem("kandy_customer")) {
                 return (
@@ -43,7 +44,7 @@ export const KandyKorner = () => (
 
         <Route path="/register">
             <Register />
-        </Route>
+        </Route> */}
 
     </>
 )
